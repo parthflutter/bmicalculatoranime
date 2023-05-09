@@ -13,7 +13,7 @@ void main() {
         getPages: [
           GetPage(name: '/', page: () => Splash_screen(),transition: Transition.leftToRight),
           GetPage(name: '/Homescreen', page: () => Homescreen(),transition: Transition.leftToRight),
-          GetPage(name: '/Resultscreen', page: () => Resultscreen(),transition: Transition.leftToRight),
+          GetPage(name: '/Resultscreen', page: () => calce(),transition: Transition.leftToRight),
         ],
       ),
     ),
